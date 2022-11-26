@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Catalog.API
-build_property.ProjectDir = D:\Terin\Microservice\AspnetMicroservices\src\Services\Catalog\Catalog.API\
+build_property.ProjectDir = D:\MicroService\AspnetMicroservices\src\Services\Catalog\Catalog.API\
