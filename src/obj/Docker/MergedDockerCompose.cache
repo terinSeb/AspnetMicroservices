@@ -1,4 +1,26 @@
 services:
+  basket.api:
+    build:
+      context: D:\MicroService\AspnetMicroservices\src
+      dockerfile: Services/Basket/Basket.API/Dockerfile
+    container_name: basket.api
+    depends_on:
+      basketdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      CacheSettings:ConnectionString: basketdb:6379
+    image: basketapi
+    ports:
+    - published: 8001
+      target: 80
+  basketdb:
+    container_name: basketdb
+    image: redis:alpine
+    ports:
+    - published: 6379
+      target: 6379
+    restart: always
   catalog.api:
     build:
       context: D:\MicroService\AspnetMicroservices\src
@@ -23,6 +45,19 @@ services:
     restart: always
     volumes:
     - mongo_data:/data/db:rw
+  portainer:
+    container_name: portainer
+    image: portainer/portainer-ce
+    ports:
+    - published: 8080
+      target: 8000
+    - published: 9000
+      target: 9000
+    restart: always
+    volumes:
+    - portainer_data:/data:rw
+    - /var/run/docker.sock:/var/run/docker.sock:rw
 version: '3.4'
 volumes:
   mongo_data: {}
+  portainer_data: {}
