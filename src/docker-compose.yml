@@ -11,7 +11,7 @@ services:
     image: postgres
 
   pgadmin:
-    image: dpage/pgadmin4
+    image: dpage/pgadmin4 
 
   portainer:
     image: portainer/portainer-ce
@@ -33,4 +33,3 @@ volumes:
   portainer_data:
   postgres_data:
   pgadmin_data:
-
