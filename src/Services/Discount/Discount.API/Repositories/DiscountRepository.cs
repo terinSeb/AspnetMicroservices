@@ -36,14 +36,10 @@ namespace Discount.API.Repositories
 
         public async Task<bool> DeleteDiscount(string productName)
         {
-            using var connection = new NpgsqlConnection
-                (_configuration.GetValue<string>("DatabaseSettings:ConnectionString"));
-            var affected = await connection.ExecuteAsync
-                ("delete from coupon set ProductName = @ProductName where ProductName = @ProductName)",
-                new
-                {
-                    ProductName = productName
-                });
+            using var connection = new NpgsqlConnection(_configuration.GetValue<string>("DatabaseSettings:ConnectionString"));
+
+            var affected = await connection.ExecuteAsync("DELETE FROM Coupon WHERE ProductName = @ProductName",
+                new { ProductName = productName });
 
             if (affected == 0)
                 return false;
@@ -70,17 +66,27 @@ namespace Discount.API.Repositories
 
         public async Task<bool> UpdateDiscount(Coupon coupon)
         {
-            using var connection = new NpgsqlConnection
-                (_configuration.GetValue<string>("DatabaseSettings:ConnectionString"));
+            //using var connection = new NpgsqlConnection
+            //    (_configuration.GetValue<string>("DatabaseSettings:ConnectionString"));
+            //var affected = await connection.ExecuteAsync
+            //    ("Update coupon set ProductName = @ProductName, Description = @Description, Amount = @Amount where Id = @Id)",
+            //    new
+            //    {
+            //        ProductName = coupon.ProductName,
+            //        Description = coupon.Description,
+            //        Amount = coupon.Amount,
+            //        Id = coupon.Id
+            //    });
+
+            //if (affected == 0)
+            //    return false;
+
+            //return true;
+            using var connection = new NpgsqlConnection(_configuration.GetValue<string>("DatabaseSettings:ConnectionString"));
+
             var affected = await connection.ExecuteAsync
-                ("Update coupon set ProductName = @ProductName, Description = @Description, Amount = @Amount where Id = @Id)",
-                new
-                {
-                    ProductName = coupon.ProductName,
-                    Description = coupon.Description,
-                    Amount = coupon.Amount,
-                    Id = coupon.Id
-                });
+                    ("UPDATE Coupon SET ProductName=@ProductName, Description = @Description, Amount = @Amount WHERE Id = @Id",
+                            new { ProductName = coupon.ProductName, Description = coupon.Description, Amount = coupon.Amount, Id = coupon.Id });
 
             if (affected == 0)
                 return false;

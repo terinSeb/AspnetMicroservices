@@ -27,3 +27,7 @@ D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.API\obj\Debug
 D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.API\obj\Debug\net5.0\ref\Discount.API.dll
 D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.API\obj\Debug\net5.0\Discount.API.pdb
 D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.API\obj\Debug\net5.0\Discount.API.genruntimeconfig.cache
+D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.API\bin\Debug\net5.0\Dapper.dll
+D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.API\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.API\bin\Debug\net5.0\Npgsql.dll
+D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
