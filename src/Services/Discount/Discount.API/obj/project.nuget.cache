@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iDgehkrueJtzAeVNrfu0XakE/phaaQtY1BJ4pEtpBgbXOXGjM8PanRRPxQaHBABC0c8ky7i8x9h2nTLRLAQg9A==",
+  "dgSpecHash": "Aqj4aFgdpy++HdAXDcfViiC6+jlpgb4PBfSDBx+V7DVDAyvpm4uQTVNU8rdylRQFTGxFfhytO7+R/FoALBrVBw==",
   "success": true,
   "projectFilePath": "D:\\MicroService\\AspnetMicroservices\\src\\Services\\Discount\\Discount.API\\Discount.API.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\akhils\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\akhils\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\akhils\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\akhils\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\akhils\\.nuget\\packages\\npgsql\\7.0.2\\npgsql.7.0.2.nupkg.sha512",
     "C:\\Users\\akhils\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\akhils\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
