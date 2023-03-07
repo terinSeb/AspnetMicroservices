@@ -21,3 +21,17 @@ D:\MicroService\AspnetMicroservices\src\bin\Debug\Catalog.API.pdb
 D:\MicroService\AspnetMicroservices\src\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 D:\MicroService\AspnetMicroservices\src\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 D:\MicroService\AspnetMicroservices\src\obj\Debug\docker-compose.dcproj.CopyComplete
+D:\MicroService\AspnetMicroservices\src\bin\Debug\Basket.API.dll
+D:\MicroService\AspnetMicroservices\src\bin\Debug\Discount.API.dll
+D:\MicroService\AspnetMicroservices\src\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\MicroService\AspnetMicroservices\src\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\MicroService\AspnetMicroservices\src\bin\Debug\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+D:\MicroService\AspnetMicroservices\src\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\MicroService\AspnetMicroservices\src\bin\Debug\Newtonsoft.Json.dll
+D:\MicroService\AspnetMicroservices\src\bin\Debug\Microsoft.Extensions.Options.dll
+D:\MicroService\AspnetMicroservices\src\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\MicroService\AspnetMicroservices\src\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\MicroService\AspnetMicroservices\src\bin\Debug\StackExchange.Redis.dll
+D:\MicroService\AspnetMicroservices\src\bin\Debug\Pipelines.Sockets.Unofficial.dll
+D:\MicroService\AspnetMicroservices\src\bin\Debug\System.Diagnostics.PerformanceCounter.dll
+D:\MicroService\AspnetMicroservices\src\bin\Debug\Basket.API.pdb

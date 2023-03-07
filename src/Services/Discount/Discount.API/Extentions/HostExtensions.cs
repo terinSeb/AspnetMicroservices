@@ -3,19 +3,16 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Npgsql;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace Discount.API.Extentions
+namespace Discount.API.Extensions
 {
     public static class HostExtensions
     {
         public static IHost MigrateDatabase<TContext>(this IHost host, int? retry = 0)
         {
             int retryForAvailability = retry.Value;
-            using(var scope = host.Services.CreateScope())
+
+            using (var scope = host.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
                 var configuration = services.GetRequiredService<IConfiguration>();
@@ -23,14 +20,17 @@ namespace Discount.API.Extentions
 
                 try
                 {
-                    logger.LogInformation("Migration postresql Databas");
+                    logger.LogInformation("Migrating postresql database.");
+
                     using var connection = new NpgsqlConnection
                         (configuration.GetValue<string>("DatabaseSettings:ConnectionString"));
                     connection.Open();
+
                     using var command = new NpgsqlCommand
                     {
                         Connection = connection
                     };
+
                     command.CommandText = "DROP TABLE IF EXISTS Coupon";
                     command.ExecuteNonQuery();
 
@@ -48,10 +48,11 @@ namespace Discount.API.Extentions
 
                     logger.LogInformation("Migrated postresql database.");
                 }
-                catch (Exception ex)
+                catch (NpgsqlException ex)
                 {
                     logger.LogError(ex, "An error occurred while migrating the postresql database");
-                    if(retryForAvailability < 50)
+
+                    if (retryForAvailability < 50)
                     {
                         retryForAvailability++;
                         System.Threading.Thread.Sleep(2000);
@@ -59,6 +60,7 @@ namespace Discount.API.Extentions
                     }
                 }
             }
+
             return host;
         }
     }
