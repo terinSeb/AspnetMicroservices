@@ -43,9 +43,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
             "Grpc.AspNetCore": {
               "target": "Package",
-              "version": "[2.34.0, )"
+              "version": "[2.51.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.2, )"
             }
           },
           "imports": [

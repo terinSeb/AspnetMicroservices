@@ -51,7 +51,7 @@ services:
       dockerfile: Services/Discount/Discount.API/Dockerfile
     container_name: discount.api
     depends_on:
-      basketdb:
+      discountdb:
         condition: service_started
     environment:
       ASPNETCORE_ENVIRONMENT: Development
