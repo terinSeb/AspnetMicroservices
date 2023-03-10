@@ -18,7 +18,6 @@ D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\bin\Debu
 D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\bin\Debug\net5.0\Npgsql.dll
 D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
-D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\obj\Debug\net5.0\Discount.Grpc.csproj.AssemblyReference.cache
 D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\obj\Debug\net5.0\Discount.Grpc.GeneratedMSBuildEditorConfig.editorconfig
 D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\obj\Debug\net5.0\Discount.Grpc.AssemblyInfoInputs.cache
 D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\obj\Debug\net5.0\Discount.Grpc.AssemblyInfo.cs
