@@ -15,7 +15,7 @@ message CouponModel {
 	int32 amount = 4;
 }
 message GetDiscountRequest {
-	CouponModel ProductName = 1;
+	string  ProductName = 1;
 }
 message CreateDiscountRequest {
 	CouponModel coupon = 1;

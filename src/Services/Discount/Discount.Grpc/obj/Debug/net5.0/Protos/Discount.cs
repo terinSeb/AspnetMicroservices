@@ -26,19 +26,19 @@ namespace Discount.Grpc.Protos {
           string.Concat(
             "ChVQcm90b3MvZGlzY291bnQucHJvdG8iUwoLQ291cG9uTW9kZWwSCgoCaWQY",
             "ASABKAUSEwoLUHJvZHVjdE5hbWUYAiABKAkSEwoLZGVzY3JpcHRpb24YAyAB",
-            "KAkSDgoGYW1vdW50GAQgASgFIjcKEkdldERpc2NvdW50UmVxdWVzdBIhCgtQ",
-            "cm9kdWN0TmFtZRgBIAEoCzIMLkNvdXBvbk1vZGVsIjUKFUNyZWF0ZURpc2Nv",
-            "dW50UmVxdWVzdBIcCgZjb3Vwb24YASABKAsyDC5Db3Vwb25Nb2RlbCI1ChVV",
-            "cGRhdGVEaXNjb3VudFJlcXVlc3QSHAoGY291cG9uGAEgASgLMgwuQ291cG9u",
-            "TW9kZWwiLAoVRGVsZXRlRGlzY291bnRSZXF1ZXN0EhMKC1Byb2R1Y3ROYW1l",
-            "GAEgASgJIikKFkRlbGV0ZURpc2NvdW50UmVzcG9uc2USDwoHc3VjY2VzcxgB",
-            "IAEoCDL7AQoURGlzY291bnRQcm90b1NlcnZpY2USMAoLR2V0RGlzY291bnQS",
-            "Ey5HZXREaXNjb3VudFJlcXVlc3QaDC5Db3Vwb25Nb2RlbBI2Cg5DcmVhdGVE",
-            "aXNjb3VudBIWLkNyZWF0ZURpc2NvdW50UmVxdWVzdBoMLkNvdXBvbk1vZGVs",
-            "EjYKDlVwZGF0ZURpc2NvdW50EhYuVXBkYXRlRGlzY291bnRSZXF1ZXN0Ggwu",
-            "Q291cG9uTW9kZWwSQQoORGVsZXRlRGlzY291bnQSFi5EZWxldGVEaXNjb3Vu",
-            "dFJlcXVlc3QaFy5EZWxldGVEaXNjb3VudFJlc3BvbnNlQheqAhREaXNjb3Vu",
-            "dC5HcnBjLlByb3Rvc2IGcHJvdG8z"));
+            "KAkSDgoGYW1vdW50GAQgASgFIikKEkdldERpc2NvdW50UmVxdWVzdBITCgtQ",
+            "cm9kdWN0TmFtZRgBIAEoCSI1ChVDcmVhdGVEaXNjb3VudFJlcXVlc3QSHAoG",
+            "Y291cG9uGAEgASgLMgwuQ291cG9uTW9kZWwiNQoVVXBkYXRlRGlzY291bnRS",
+            "ZXF1ZXN0EhwKBmNvdXBvbhgBIAEoCzIMLkNvdXBvbk1vZGVsIiwKFURlbGV0",
+            "ZURpc2NvdW50UmVxdWVzdBITCgtQcm9kdWN0TmFtZRgBIAEoCSIpChZEZWxl",
+            "dGVEaXNjb3VudFJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgy+wEKFERpc2Nv",
+            "dW50UHJvdG9TZXJ2aWNlEjAKC0dldERpc2NvdW50EhMuR2V0RGlzY291bnRS",
+            "ZXF1ZXN0GgwuQ291cG9uTW9kZWwSNgoOQ3JlYXRlRGlzY291bnQSFi5DcmVh",
+            "dGVEaXNjb3VudFJlcXVlc3QaDC5Db3Vwb25Nb2RlbBI2Cg5VcGRhdGVEaXNj",
+            "b3VudBIWLlVwZGF0ZURpc2NvdW50UmVxdWVzdBoMLkNvdXBvbk1vZGVsEkEK",
+            "DkRlbGV0ZURpc2NvdW50EhYuRGVsZXRlRGlzY291bnRSZXF1ZXN0GhcuRGVs",
+            "ZXRlRGlzY291bnRSZXNwb25zZUIXqgIURGlzY291bnQuR3JwYy5Qcm90b3Ni",
+            "BnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -388,7 +388,7 @@ namespace Discount.Grpc.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public GetDiscountRequest(GetDiscountRequest other) : this() {
-      productName_ = other.productName_ != null ? other.productName_.Clone() : null;
+      productName_ = other.productName_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -400,13 +400,13 @@ namespace Discount.Grpc.Protos {
 
     /// <summary>Field number for the "ProductName" field.</summary>
     public const int ProductNameFieldNumber = 1;
-    private global::Discount.Grpc.Protos.CouponModel productName_;
+    private string productName_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Discount.Grpc.Protos.CouponModel ProductName {
+    public string ProductName {
       get { return productName_; }
       set {
-        productName_ = value;
+        productName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -425,7 +425,7 @@ namespace Discount.Grpc.Protos {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(ProductName, other.ProductName)) return false;
+      if (ProductName != other.ProductName) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -433,7 +433,7 @@ namespace Discount.Grpc.Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (productName_ != null) hash ^= ProductName.GetHashCode();
+      if (ProductName.Length != 0) hash ^= ProductName.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -452,9 +452,9 @@ namespace Discount.Grpc.Protos {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (productName_ != null) {
+      if (ProductName.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(ProductName);
+        output.WriteString(ProductName);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -466,9 +466,9 @@ namespace Discount.Grpc.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (productName_ != null) {
+      if (ProductName.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(ProductName);
+        output.WriteString(ProductName);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -480,8 +480,8 @@ namespace Discount.Grpc.Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (productName_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ProductName);
+      if (ProductName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ProductName);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -495,11 +495,8 @@ namespace Discount.Grpc.Protos {
       if (other == null) {
         return;
       }
-      if (other.productName_ != null) {
-        if (productName_ == null) {
-          ProductName = new global::Discount.Grpc.Protos.CouponModel();
-        }
-        ProductName.MergeFrom(other.ProductName);
+      if (other.ProductName.Length != 0) {
+        ProductName = other.ProductName;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -517,10 +514,7 @@ namespace Discount.Grpc.Protos {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            if (productName_ == null) {
-              ProductName = new global::Discount.Grpc.Protos.CouponModel();
-            }
-            input.ReadMessage(ProductName);
+            ProductName = input.ReadString();
             break;
           }
         }
@@ -539,10 +533,7 @@ namespace Discount.Grpc.Protos {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            if (productName_ == null) {
-              ProductName = new global::Discount.Grpc.Protos.CouponModel();
-            }
-            input.ReadMessage(ProductName);
+            ProductName = input.ReadString();
             break;
           }
         }

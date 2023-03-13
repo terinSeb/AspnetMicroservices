@@ -32,3 +32,4 @@ D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\obj\Debu
 D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\obj\Debug\net5.0\ref\Discount.Grpc.dll
 D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\obj\Debug\net5.0\Discount.Grpc.pdb
 D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\obj\Debug\net5.0\Discount.Grpc.genruntimeconfig.cache
+D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\obj\Debug\net5.0\Discount.Grpc.csproj.AssemblyReference.cache
