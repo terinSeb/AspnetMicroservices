@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Discount.Grpc.Entities;
 using Discount.Grpc.Protos;
 using Discount.Grpc.Repositories;
 using Grpc.Core;
@@ -30,8 +31,14 @@ namespace Discount.Grpc.Services
             {
                 throw new RpcException(new Status(StatusCode.NotFound, $"Discount with product name {request.ProductName} not found"));
             }
-            var couponModel = _mapper.map<CouponModel>(coupon);
+            _logger.LogInformation("Discount is retrieved for Productname : {ProductName}, Amount : {amount}", coupon.ProductName, coupon.Amount);
+            var couponModel = _mapper.Map<CouponModel>(coupon);
             return couponModel;
+        }
+        public override async Task<CouponModel> CreateDiscount(CreateDiscountRequest request, ServerCallContext context)
+        {
+            var coupon = _mapper.Map<Coupon>(request.Coupon);
+            await _repository.CreateDiscount(coupon);
         }
     }
 }
