@@ -33,3 +33,8 @@ D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\obj\Debu
 D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\obj\Debug\net5.0\Discount.Grpc.pdb
 D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\obj\Debug\net5.0\Discount.Grpc.genruntimeconfig.cache
 D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\obj\Debug\net5.0\Discount.Grpc.csproj.AssemblyReference.cache
+D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\bin\Debug\net5.0\AutoMapper.dll
+D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\MicroService\AspnetMicroservices\src\Services\Discount\Discount.Grpc\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
