@@ -34,9 +34,11 @@ namespace Basket.API
                 options.Configuration = Configuration.GetValue<string>("CacheSettings:ConnectionString");
             });
             services.AddScoped<IBasketRepository, BasketRepository>();
+            
 
+            // Grpc Configuration
             services.AddGrpcClient<DiscountProtoService.DiscountProtoServiceClient>
-                 (o => o.Address = new Uri(Configuration["GrpcSettings:DiscountUrl"]));
+                (o => o.Address = new Uri(Configuration["GrpcSettings:DiscountUrl"]));
             services.AddScoped<DiscountGrpcService>();
 
             services.AddControllers();
