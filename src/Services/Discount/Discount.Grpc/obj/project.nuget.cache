@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CWxA4c5YmPF3eGWRh00AVbwOhAjfkJh99IqsU/w2dAdbLuJXGePXv/9ot/qJOmmIr1qgiwKPVlcCT2d94H8L4g==",
+  "dgSpecHash": "zwXHRj/h6iBI1wTMoFk2PofulnpnkNwdBpSDoooKYbk4I+ncfFYWcGeDnv92NyYuLQ3mJGHJNW/zbz/XbxEjbw==",
   "success": true,
   "projectFilePath": "D:\\MicroService\\AspnetMicroservices\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,7 @@
     "C:\\Users\\akhils\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\akhils\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\akhils\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\akhils\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\akhils\\.nuget\\packages\\npgsql\\7.0.2\\npgsql.7.0.2.nupkg.sha512",
     "C:\\Users\\akhils\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\akhils\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
