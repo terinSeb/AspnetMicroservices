@@ -56,7 +56,8 @@ services:
         condition: service_started
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      ConnectionString:Server: localhost;Port=5432;Database=DiscountDb;User Id=admin;Password=admin1234;
+      DatabaseSettings:ConnectionString: Server=localhost;Port=5432;Database=DiscountDb;User
+        Id=admin;Password=admin1234;
     image: discountapi
     ports:
     - published: 8002
@@ -71,7 +72,8 @@ services:
         condition: service_started
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      ConnectionString:Server: localhost;Port=5432;Database=DiscountDb;User Id=admin;Password=admin1234;
+      DatabaseSettings:ConnectionString: Server=localhost;Port=5432;Database=DiscountDb;User
+        Id=admin;Password=admin1234;
     image: discountgrpc
     ports:
     - published: 8003

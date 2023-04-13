@@ -51,3 +51,12 @@ D:\MicroService\AspnetMicroservices\src\bin\Debug\Dapper.dll
 D:\MicroService\AspnetMicroservices\src\bin\Debug\Grpc.Net.Client.dll
 D:\MicroService\AspnetMicroservices\src\bin\Debug\Grpc.Net.Common.dll
 D:\MicroService\AspnetMicroservices\src\bin\Debug\Discount.API.pdb
+D:\MicroService\AspnetMicroservices\src\bin\Debug\Discount.Grpc.deps.json
+D:\MicroService\AspnetMicroservices\src\bin\Debug\Discount.Grpc.runtimeconfig.json
+D:\MicroService\AspnetMicroservices\src\bin\Debug\Discount.Grpc.runtimeconfig.dev.json
+D:\MicroService\AspnetMicroservices\src\bin\Debug\Discount.Grpc.exe
+D:\MicroService\AspnetMicroservices\src\bin\Debug\Discount.Grpc.dll
+D:\MicroService\AspnetMicroservices\src\bin\Debug\AutoMapper.dll
+D:\MicroService\AspnetMicroservices\src\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\MicroService\AspnetMicroservices\src\bin\Debug\Grpc.AspNetCore.Server.dll
+D:\MicroService\AspnetMicroservices\src\bin\Debug\Discount.Grpc.pdb
