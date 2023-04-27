@@ -1,14 +1,12 @@
-﻿using AutoMapper;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ordering.Application.Mappings
+namespace Ordering.Application.Features.Orders.Queries.GetOrdersList
 {
-    public class MappingProfile : Profile
+    class OrdersVm
     {
-
     }
 }
