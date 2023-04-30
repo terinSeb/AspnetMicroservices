@@ -9,6 +9,7 @@ namespace Ordering.Domain.Entities
 {
     public class Order : EntityBase
     {
+        public int Id { get; set; }
         public string UserName { get; set; }
         public decimal TotalPrice { get; set; }
 
