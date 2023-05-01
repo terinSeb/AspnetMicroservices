@@ -3,3 +3,13 @@ D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Application\o
 D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Application\obj\Debug\net5.0\Ordering.Application.AssemblyInfoInputs.cache
 D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Application\obj\Debug\net5.0\Ordering.Application.AssemblyInfo.cs
 D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Application\obj\Debug\net5.0\Ordering.Application.csproj.CoreCompileInputs.cache
+D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Application\bin\Debug\net5.0\Ordering.Application.deps.json
+D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Application\bin\Debug\net5.0\Ordering.Application.dll
+D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Application\bin\Debug\net5.0\ref\Ordering.Application.dll
+D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Application\bin\Debug\net5.0\Ordering.Application.pdb
+D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Application\bin\Debug\net5.0\Ordering.Domain.dll
+D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Application\bin\Debug\net5.0\Ordering.Domain.pdb
+D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Application\obj\Debug\net5.0\Ordering.Application.csproj.CopyComplete
+D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Application\obj\Debug\net5.0\Ordering.Application.dll
+D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Application\obj\Debug\net5.0\ref\Ordering.Application.dll
+D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Application\obj\Debug\net5.0\Ordering.Application.pdb
