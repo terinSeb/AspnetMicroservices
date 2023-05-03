@@ -2,7 +2,6 @@ D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Infrastructur
 D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net5.0\Ordering.Infrastructure.dll
 D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net5.0\ref\Ordering.Infrastructure.dll
 D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net5.0\Ordering.Infrastructure.pdb
-D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net5.0\Ordering.Infrastructure.csproj.AssemblyReference.cache
 D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net5.0\Ordering.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net5.0\Ordering.Infrastructure.AssemblyInfoInputs.cache
 D:\MicroService\AspnetMicroservices\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net5.0\Ordering.Infrastructure.AssemblyInfo.cs
