@@ -4,7 +4,7 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Logging.Abstractions.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.dependencyinjection.abstractions\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.dependencyinjection.abstractions\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.Abstractions.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\7.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Logging.Abstractions.targets')" />
   </ImportGroup>
 </Project>
